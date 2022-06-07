@@ -1,3 +1,4 @@
-.idea\
+.idea/
 *.log
-target\
+target/
+test-output/

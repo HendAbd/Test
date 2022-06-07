@@ -20,7 +20,7 @@ public class TestNumberOne {
     BrowserStackHomePage homePage;
     BrowserStackSignUpPage signPage;
 
-    @BeforeSuiteza
+    @BeforeSuite
     public void launcheReport() {
         // here you can change the browserycfyjham
     }

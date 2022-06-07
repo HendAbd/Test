@@ -118,9 +118,9 @@
           <configuration>
 
 
-            <suiteXmlFiles>
-              <suiteXmlFile>testng.xml</suiteXmlFile>
-            </suiteXmlFiles>
+<!--            <suiteXmlFiles>-->
+<!--              <suiteXmlFile>testng.xml</suiteXmlFile>-->
+<!--            </suiteXmlFiles>-->
 
             <systemPropertyVariables>
               <propertyName>firefox</propertyName>
