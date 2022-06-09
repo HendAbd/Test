@@ -14,6 +14,8 @@ import pages.BrowserStackSignUpPage;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+import static library.RunReports.setUpReport;
+
 public class TestNumberOne {
 
     WebDriver driver;
@@ -22,12 +24,12 @@ public class TestNumberOne {
 
     @BeforeSuite
     public void launcheReport() {
-        // here you can change the browserycfyjham
+        setUpReport();
     }
     @BeforeTest
     public void browserlauncher() {
         // here you can change the browser
-        driver = SelectBrowser.StartBrowser("EdgeExplore");
+        driver = SelectBrowser.StartBrowser("Chrome");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.browserstack.com/");
     }
