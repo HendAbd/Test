@@ -44,10 +44,10 @@ public class TestNumberOne {
         homePage = new BrowserStackHomePage(driver);
         homePage.clickHeader();
         RunReports.takeScreenShot(driver,System.getProperty("user.dir") +"/test-output/img1.jpg");
-        RunReports.test.addScreenCaptureFromPath("img1.png");
+        RunReports.test.addScreenCaptureFromPath("img1.jpg");
         homePage.clickSignButton();
         RunReports.takeScreenShot(driver,System.getProperty("user.dir") +"/test-output/img2.jpg");
-        RunReports.test.addScreenCaptureFromPath("img2.png");
+        RunReports.test.addScreenCaptureFromPath("img2.jpg");
     }
     @Test(priority = 2)
     public void enter_userDetails() throws InterruptedException, IOException {
@@ -57,7 +57,7 @@ public class TestNumberOne {
         signPage.businessEmailClick("TestUser@gmail.com");
         signPage.passwordClick("TestUserPassword");
         RunReports.takeScreenShot(driver,System.getProperty("user.dir") +"/test-output/img3.jpg");
-        RunReports.test.addScreenCaptureFromPath("img3.png");
+        RunReports.test.addScreenCaptureFromPath("img3.jpg");
 
 
         Thread.sleep(10000);
