@@ -5,8 +5,11 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 import library.RunReports;
 import library.SelectBrowser;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
+import org.testng.TestNG;
+import org.testng.TestNGAntTask;
 import org.testng.annotations.*;
 import pages.BrowserStackHomePage;
 import pages.BrowserStackSignUpPage;
@@ -16,6 +19,8 @@ import java.util.concurrent.TimeUnit;
 
 import static library.RunReports.setUpReport;
 
+
+//@RunWith(TestNG.class)
 public class TestNumberOne {
 
     WebDriver driver;
