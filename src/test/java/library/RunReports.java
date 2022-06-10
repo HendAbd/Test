@@ -35,10 +35,10 @@ public class RunReports {
 
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host Name", "Hend.home-server.local");
-        extent.setSystemInfo("Environment", "Jenkins test");
+        extent.setSystemInfo("Environment", "Jenkins test ");
         extent.setSystemInfo("User Name", "Hend Omar");
         htmlReporter.config().setChartVisibilityOnOpen(true);
-        htmlReporter.config().setDocumentTitle("AutomationTesting Google download pictures report");
+        htmlReporter.config().setDocumentTitle("AutomationTesting  report");
         htmlReporter.config().setReportName(" Report");
         htmlReporter.config().setTestViewChartLocation(ChartLocation.TOP);
         htmlReporter.config().setTheme(Theme.DARK);
