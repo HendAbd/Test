@@ -48,6 +48,7 @@ public class TestNumberOne {
         homePage.clickSignButton();
         RunReports.takeScreenShot(driver,System.getProperty("user.dir") +"/test-output/img2.jpg");
         RunReports.test.addScreenCaptureFromPath("img2.jpg");
+        System.out.println("hello");
     }
     @Test(priority = 2)
     public void enter_userDetails() throws InterruptedException, IOException {
