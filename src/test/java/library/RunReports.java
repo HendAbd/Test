@@ -34,9 +34,9 @@ public class RunReports {
         extent = new ExtentReports();
 
         extent.attachReporter(htmlReporter);
-        extent.setSystemInfo("Host Name", "igor.home-server.local");
+        extent.setSystemInfo("Host Name", "Hend.home-server.local");
         extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("User Name", "Igor Adulyan");
+        extent.setSystemInfo("User Name", "Hend ");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setDocumentTitle("AutomationTesting Google download pictures report");
         htmlReporter.config().setReportName("Google Search and Download Pictures Report");
