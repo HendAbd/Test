@@ -40,7 +40,7 @@ public class TestNumberOne {
     }
     @Test(priority = 1)
     public void navigate_to_homepage_click_on_getstarted() throws IOException {
-        RunReports.test = RunReports.extent.createTest("verifyTitle", "Test Passed");
+        RunReports.test = RunReports.extent.createTest("verifyTitle", "Test Passed changes to github");
         homePage = new BrowserStackHomePage(driver);
         homePage.clickHeader();
         RunReports.takeScreenShot(driver,System.getProperty("user.dir") +"/test-output/img1.jpg");
