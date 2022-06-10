@@ -35,7 +35,7 @@ public class RunReports {
 
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("Host Name", "Hend.home-server.local");
-        extent.setSystemInfo("Environment", "QA");
+        extent.setSystemInfo("Environment", "Jenkins ");
         extent.setSystemInfo("User Name", "Hend Omar");
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setDocumentTitle("AutomationTesting Google download pictures report");
