@@ -34,7 +34,7 @@ public class TestNumberOne {
     @BeforeTest
     public void browserlauncher() {
         // here you can change the browser
-        driver = SelectBrowser.StartBrowser("Firefox");
+        driver = SelectBrowser.StartBrowser("Chrome");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.get("https://www.browserstack.com/");
     }
