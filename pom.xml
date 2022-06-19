@@ -128,7 +128,7 @@
             </suiteXmlFiles>
 
             <systemPropertyVariables>
-              <propertyName>firefox</propertyName>
+              <propertyName>Firefox</propertyName>
             </systemPropertyVariables>
 
             <groups>functest,perftest</groups>
